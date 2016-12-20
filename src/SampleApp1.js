@@ -197,7 +197,8 @@ function changeModel()
     this.isModelShown = false;
     
     this.live2DMgr.reloadFlg = true;
-    this.live2DMgr.count++;
+	//this.live2DMgr.count++;
+	this.live2DMgr.count = 2;
 
     this.live2DMgr.changeModel(this.gl);
 }
